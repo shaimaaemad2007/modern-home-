@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    background-color: #d8e1e9;
+    color: #333;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .navbar a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+  }
+
+  .navbar .contact-btn {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .hero-section {
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #254156;
+    color: #ffffff;
+    border-radius: 20px;
+  }
+
+  .hero-section img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .hero-section h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  .hero-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .section {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .section h2 {
+    font-size: 28px;
+    color: #254156;
+    margin-bottom: 20px;
+  }
+
+  .section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .image-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .image-section .text {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .image-section img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .dark-section {
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #333;
+    color: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .dark-section img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .navbar, .image-section {
+      flex-direction: column;
+      align-items: center;
+    }
+    .image-section {
+      grid-template-columns: 1fr;
+    }
+  }
